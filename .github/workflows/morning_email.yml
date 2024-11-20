@@ -2,7 +2,7 @@ name: Morning Report
 
 on:
   schedule:
-    - cron: '0 08 * * *'  # 每天 22 点 UTC 时间
+    - cron: '0 8 * * *'  # 每天 22 点 UTC 时间
   workflow_dispatch:
 
 jobs:
